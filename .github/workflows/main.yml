@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: tirazel/hello-world-javascript-action@latest
+        uses: tirazel/hello-world-javascript-action@main
         with:
           who-to-greet: 'Tirazel'
       # Use the output from the `hello` step
